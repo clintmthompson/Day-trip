@@ -5,7 +5,7 @@ function randomizeArray(array){
     let pos = Math.floor(Math.random() * array.length);
     let roundPos = Math.round(pos);
     let result = array[roundPos];
-    return(result);
+    alert(result);
 }
 
 let destinations = ["Spain", "Chile", "Poland", "Canada"];

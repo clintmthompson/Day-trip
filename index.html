@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1>Random Trip Generator</h1>
-
+    
     <p1>Use the folowing random generators to plan your trip!</p1><br>
     <br><br><br>
 
@@ -17,7 +17,7 @@
     <br>
     <textarea id="1" rows="2" cols="25">
     </textarea><br>
-    <button onclick="randomizeArray(destinations)">Take a chance!</button>
+    <button id ="b1">Take a chance!</button>
     
     <br><br>
 
@@ -25,14 +25,14 @@
     <br>
     <textarea id="2" rows="2" cols="25">
     </textarea><br>
-    <button onclick="randomizeArray(restaurant)">Take a chance!</button>
+    <button id="b2">Take a chance!</button>
     <br><br>
 
     <p4>Time to choose our mode of travel.</p4>
     <br>
     <textarea id="3" rows="2" cols="25">
     </textarea><br>
-    <button onclick="randomizeArray(transport)">Take a chance!</button>
+    <button id = "b3">Take a chance!</button>
     
     <br><br>
 
@@ -40,28 +40,34 @@
     <br>
     <textarea id="4" rows="2" cols="25">
     </textarea><br>
-    <button onclick="randomizeArray(entertainment)">Take a chance!</button>
+    <button id="b4">Take a chance!</button>
     <br><br><br><br>
 
     <p6>Press button to confirm trip</p6><br>
     <button onclick="console.log('1:' + dest + ' ' + '2:' + rest + ' ' + '3:' + tran + ' ' + '4:' + ente)">Press the Button</button>
 
+    
     <script>
+        document.getElementById("b1").addEventListener("click",  functionOne)
         document.getElementById("1").innerHTML = dest
     </script>
     
     <script>
+        document.getElementById("b2").addEventListener("click", functionTwo)
         document.getElementById("2").innerHTML = rest
     </script>
     
     <script>
+        document.getElementById("b3").addEventListener("click",  functionThree)
         document.getElementById("3").innerHTML = tran
     </script>
     
     <script>
+        document.getElementById("b4").addEventListener("click", functionFour)
         document.getElementById("4").innerHTML = ente
     </script>
     
+
     
 
 </body>

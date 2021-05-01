@@ -15,7 +15,7 @@
 
     <p2>Let's start with a destination!</p2>
     <br>
-    <textarea rows="2" cols="25">
+    <textarea id="1" rows="2" cols="25">
     </textarea><br>
     <button onclick="randomizeArray(destinations)">Take a chance!</button>
     
@@ -23,22 +23,46 @@
 
     <p3>Now let's decide where to eat!!</p3>
     <br>
-    <textarea rows="2" cols="25">
+    <textarea id="2" rows="2" cols="25">
     </textarea><br>
     <button onclick="randomizeArray(restaurant)">Take a chance!</button>
     <br><br>
 
     <p4>Time to choose our mode of travel.</p4>
     <br>
-    <textarea rows="2" cols="25">
+    <textarea id="3" rows="2" cols="25">
     </textarea><br>
     <button onclick="randomizeArray(transport)">Take a chance!</button>
+    
     <br><br>
 
     <p5>All that's left is what to do once we arrive!</p5>
     <br>
-    <textarea rows="2" cols="25">
+    <textarea id="4" rows="2" cols="25">
     </textarea><br>
     <button onclick="randomizeArray(entertainment)">Take a chance!</button>
+    <br><br><br><br>
+
+    <p6>Press button to confirm trip</p6><br>
+    <button onclick="console.log('1:' + dest + ' ' + '2:' + rest + ' ' + '3:' + tran + ' ' + '4:' + ente)">Press the Button</button>
+
+    <script>
+        document.getElementById("1").innerHTML = dest
+    </script>
+    
+    <script>
+        document.getElementById("2").innerHTML = rest
+    </script>
+    
+    <script>
+        document.getElementById("3").innerHTML = tran
+    </script>
+    
+    <script>
+        document.getElementById("4").innerHTML = ente
+    </script>
+    
+    
+
 </body>
 </html>

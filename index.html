@@ -11,14 +11,16 @@
 <body>
     <h1>Random Trip Generator</h1>
     
-    <p1>Use the folowing random generators to plan your trip!</p1><br>
+    <p1>The folowing random locations have been randomly generated to help
+        plan your trip.<br> Please note that any changes to your itinerary will appear in the console.
+    </p1><br>
     <br><br><br>
 
     <p2>Let's start with a destination!</p2>
     <br>
     <textarea id="1" rows="2" cols="25">
     </textarea><br>
-    <button id ="b1">Take a chance!</button>
+    <button id ="b1">Get a new destination</button>
     
     <br><br>
 
@@ -26,14 +28,14 @@
     <br>
     <textarea id="2" rows="2" cols="25">
     </textarea><br>
-    <button id="b2">Take a chance!</button>
+    <button id="b2">Pick a new restaraunt</button>
     <br><br>
 
     <p4>Time to choose our mode of travel.</p4>
     <br>
     <textarea id="3" rows="2" cols="25">
     </textarea><br>
-    <button id = "b3">Take a chance!</button>
+    <button id = "b3">Get a new mode of travel</button>
     
     <br><br>
 
@@ -41,10 +43,10 @@
     <br>
     <textarea id="4" rows="2" cols="25">
     </textarea><br>
-    <button id="b4">Take a chance!</button>
+    <button id="b4">Get new entertainment</button>
     <br><br><br><br>
 
-    <p6>Press button to confirm trip</p6><br>
+    <p6>Press button to confirm trip and display your final selections in the console</p6><br>
     <button onclick="console.log('1:' + dest + ' ' + '2:' + rest + ' ' + '3:' + tran + ' ' + '4:' + ente)">Press the Button</button>
 
     
@@ -65,7 +67,7 @@
     
     <script>
         document.getElementById("b4").addEventListener("click", functionFour)
-        document.getElementById("4").innerHTML = ente
+        document.getElementById("4").value = ente
     </script>
     
 

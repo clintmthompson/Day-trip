@@ -11,10 +11,10 @@ function randomizeArray(array){
 
 
 
-let destinations = ["Spain", "Chile", "Poland", "Canada"];
-let restaurant = ["Chili's", "McDonalds", "Denny's", "Food from home"]
-let transport = ["You're walking, and you may have to swim", "Helicopter", "Airplane"]
-let entertainment = ["Mariachi Concert", "Drive-in Movie", "Comedy Show"]
+let destinations = ["Miami", "Denver", "Milwaukee", "Los Angeles", "Kansas City", "Brooklyn"];
+let restaurant = ["Chili's", "McDonalds", "Denny's", "Food from home", "Olive Garden", "Red Lobster"]
+let transport = ["You're walking, and you may have to swim", "Helicopter", "Airplane", "Uber", "Rent a Car"]
+let entertainment = ["Concert", "Drive-in Movie", "Comedy Show", "Mini Golf", "Go see a play"]
 
 
 let dest = randomizeArray(destinations)

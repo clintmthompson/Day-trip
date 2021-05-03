@@ -3,6 +3,8 @@ body{
     background-size: cover;
     color: rgb(216, 216, 216);
     font-size: large;
+    padding-left: 50px;
+    padding-right: 750px;
 }
 h1{
     text-decoration: underline;
@@ -107,4 +109,7 @@ p2{
     border-style: solid;
     border-width: thin;
     background-color: rgb(216, 216, 216);
+}
+#maindiv{
+    padding-left: 75px;
 }

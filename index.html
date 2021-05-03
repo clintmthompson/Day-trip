@@ -16,63 +16,68 @@
     <h1>Random Trip Generator <i class="fas fa-plane"></i></h1>
 
     
-    <p1>The folowing random locations have been randomly generated to help
-        plan your trip.<br> Please note that any changes to your itinerary will appear in the console.
-    </p1><br>
-    <br><br><br>
-
-    <p2>Let's start with a destination!</p2>
+    <p1>
+        The folowing random locations have been randomly generated to help plan your trip.
+    </p1>
     <br>
-    <textarea id="1" rows="2" cols="25">
+    <p2>
+        Please note that any changes to your itinerary will appear in the console.
+    </p2>
+
+    <br><br><br><br>
+
+    <p3>Let's start with a destination!</p3>
+    <br>
+    <textarea id="t1" rows="2" cols="25">
     </textarea><br>
     <button id ="b1">Get a new destination</button>
     
     <br><br>
 
-    <p3>Now let's decide where to eat!!</p3>
+    <p4>Now let's decide where to eat!!</p4>
     <br>
-    <textarea id="2" rows="2" cols="25">
+    <textarea id="t2" rows="2" cols="25">
     </textarea><br>
     <button id="b2">Pick a new restaraunt</button>
     <br><br>
 
-    <p4>Time to choose our mode of travel.</p4>
+    <p5>Time to choose our mode of travel.</p5>
     <br>
-    <textarea id="3" rows="2" cols="25">
+    <textarea id="t3" rows="2" cols="25">
     </textarea><br>
     <button id = "b3">Get a new mode of travel</button>
     
     <br><br>
 
-    <p5>All that's left is what to do once we arrive!</p5>
+    <p6>All that's left is what to do once we arrive!</p6>
     <br>
-    <textarea id="4" rows="2" cols="25">
+    <textarea id="t4" rows="2" cols="25">
     </textarea><br>
     <button id="b4">Get new entertainment</button>
     <br><br><br><br>
 
-    <p6>Press button to confirm trip and display your final selections in the console</p6><br>
+    <p7>Press button to confirm trip and display your final selections in the console</p7><br>
     <button id = b5 onclick="console.log('1:' + dest + ' ' + '2:' + rest + ' ' + '3:' + tran + ' ' + '4:' + ente)">Press the Button</button>
 
     
     <script>
         document.getElementById("b1").addEventListener("click",  functionOne)
-        document.getElementById("1").innerHTML = dest;
+        document.getElementById("t1").innerHTML = dest;
     </script>
     
     <script>
         document.getElementById("b2").addEventListener("click", functionTwo)
-        document.getElementById("2").innerHTML = rest
+        document.getElementById("t2").innerHTML = rest
     </script>
     
     <script>
         document.getElementById("b3").addEventListener("click",  functionThree)
-        document.getElementById("3").innerHTML = tran
+        document.getElementById("t3").innerHTML = tran
     </script>
     
     <script>
         document.getElementById("b4").addEventListener("click", functionFour)
-        document.getElementById("4").value = ente
+        document.getElementById("t4").value = ente
     </script>
     
 

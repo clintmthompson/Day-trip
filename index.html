@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src = "dayTrip.js"></script>
     <link href="Style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -15,7 +14,7 @@
 
     <h1>Random Trip Generator <i class="fas fa-plane"></i></h1>
 
-    
+<div id="body">    
     <p1>
         The following random locations have been randomly generated to help plan your trip.
     </p1>
@@ -59,27 +58,8 @@
     <p7>Press button to confirm trip and display your final selections in the console</p7><br>
     <button id = b5 onclick="console.log('1:' + dest + ' ' + '2:' + rest + ' ' + '3:' + tran + ' ' + '4:' + ente)">Press the Button</button>
 </div>
-    
-    <script>
-        document.getElementById("b1").addEventListener("click",  functionOne)
-        document.getElementById("t1").innerHTML = dest;
-    </script>
-    
-    <script>
-        document.getElementById("b2").addEventListener("click", functionTwo)
-        document.getElementById("t2").innerHTML = rest
-    </script>
-    
-    <script>
-        document.getElementById("b3").addEventListener("click",  functionThree)
-        document.getElementById("t3").innerHTML = tran
-    </script>
-    
-    <script>
-        document.getElementById("b4").addEventListener("click", functionFour)
-        document.getElementById("t4").value = ente
-    </script>
-    
+</div>
+<script src = "dayTrip.js"></script>    
 
     
 

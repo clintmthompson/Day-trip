@@ -38,3 +38,11 @@ function functionFour(){
     ente = randomizeArray(entertainment)
     console.log(ente)
 }
+document.getElementById("b1").addEventListener("click",  functionOne)
+document.getElementById("t1").innerHTML = dest;
+document.getElementById("b2").addEventListener("click", functionTwo)
+document.getElementById("t2").innerHTML = rest
+document.getElementById("b3").addEventListener("click",  functionThree)
+document.getElementById("t3").innerHTML = tran
+document.getElementById("b4").addEventListener("click", functionFour)
+document.getElementById("t4").value = ente

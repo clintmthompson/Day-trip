@@ -1,18 +1,23 @@
+*{
+    color: black;
+}
 body{
-    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/74a123e8-378f-4e35-a994-e6bfd8b05992/dc95rkv-30e2484a-ba33-42eb-b905-1993b9cda1b5.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzc0YTEyM2U4LTM3OGYtNGUzNS1hOTk0LWU2YmZkOGIwNTk5MlwvZGM5NXJrdi0zMGUyNDg0YS1iYTMzLTQyZWItYjkwNS0xOTkzYjljZGExYjUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ijSK5tsC4zC_eaHeVnZwDGJ9xfFu17A5H8igpEN-ieI);
+    background-image: url(background.jfif);
     background-size: cover;
     color: rgb(216, 216, 216);
     font-size: large;
     padding-left: 50px;
 }
 h1{
+    opacity: .9;
     text-decoration: underline;
-    background-color: rgb(33, 0, 180);
+    background-color: saddlebrown;
     border-style: solid;
     border-width: thin;
-    border-color: rgb(216, 216, 216);
+    border-color: brown;
     border-radius: 50px;
     padding-left: 50px;
+    color: rgb(216, 216, 216);
 }
 p1{
    font-size: large;
@@ -31,51 +36,61 @@ p2{
     background-color: rgb(33, 0, 180);
     color: rgb(216, 216, 216);
     border-radius: 50px;
+    padding: 5px;
 }
 #b1:hover{
     background-color: rgb(79, 41, 248);
     color: rgb(216, 216, 216);
     border-radius: 50px;
+    padding: 5px;
 }
 #b2{
     background-color:rgb(33, 0, 180);
     color: rgb(216, 216, 216);
     border-radius: 50px;
+    padding: 5px;
 }
 #b2:hover{
     background-color: rgb(79, 41, 248);
     color: rgb(216, 216, 216);
     border-radius: 50px;
+    padding: 5px;
 }
 #b3{
     background-color: rgb(33, 0, 180);
     color: rgb(216, 216, 216);
     border-radius: 50px;
+    padding: 5px;
 }
 #b3:hover{
     background-color: rgb(79, 41, 248);
     color: rgb(216, 216, 216);
     border-radius: 50px;
+    padding: 5px;
 }
 #b4{
     background-color: rgb(33, 0, 180);
     color: rgb(216, 216, 216);
     border-radius: 50px;
+    padding: 5px;
 }
 #b4:hover{
     background-color: rgb(79, 41, 248);
     color: rgb(216, 216, 216);
     border-radius: 50px;
+    padding: 5px;
 }
 #b5{
     background-color: rgb(33, 0, 180);
     color: rgb(216, 216, 216);
     border-radius: 50px;
+    padding: 5px;
 }
 #b5:hover{
     background-color: rgb(79, 41, 248);
     color: rgbrgb(216, 216, 216);
     border-radius: 50px;
+    padding: 5px;
 }
 #t1{
     border-radius: 5px;
@@ -111,4 +126,16 @@ p2{
 }
 #maindiv{
     padding-left: 75px;
+}
+#body{
+    opacity: .9;
+    background-color: saddlebrown;
+    width: 40%;
+    padding: 20px;
+    border-radius: 85px;
+    border-style: solid;
+    border-width: thin;
+    border-color: brown;
+};
+}
 }

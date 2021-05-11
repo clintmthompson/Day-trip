@@ -25,18 +25,22 @@ let ente = randomizeArray(entertainment)
 function functionOne(){
     dest = randomizeArray(destinations)
     console.log(dest)
+    document.getElementById("t1").innerHTML = dest
 }
 function functionTwo(){
     rest = randomizeArray(restaurant)
     console.log(rest)
+    document.getElementById("t2").innerHTML = rest
 }
 function functionThree(){
     tran = randomizeArray(transport)
     console.log(tran)
+    document.getElementById("t3").innerHTML = tran
 }
 function functionFour(){
     ente = randomizeArray(entertainment)
     console.log(ente)
+    document.getElementById("t4").value = ente
 }
 document.getElementById("b1").addEventListener("click",  functionOne)
 document.getElementById("t1").innerHTML = dest;
